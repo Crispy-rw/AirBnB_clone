@@ -296,9 +296,6 @@ class HBNBCommand(cmd.Cmd):
         <class name>.all()
         """
         try:
-            if line == 'exit':
-                sys.exit()
-
             args = line.split('.')
             cls_name = ""
             if args[0] is not None:
